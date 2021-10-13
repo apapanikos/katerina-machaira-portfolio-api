@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "authors",
+  "collectionName": "projects",
   "info": {
-    "name": "author",
-    "description": ""
+    "name": "Project"
   },
   "options": {
     "increments": true,
@@ -12,11 +11,18 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "author": {
+      "model": "author",
+      "via": "projects"
+    },
+    "title": {
       "type": "string"
     },
-    "picture": {
-      "model": "file",
+    "summary": {
+      "type": "richtext"
+    },
+    "images": {
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -27,9 +33,16 @@
       "required": false,
       "pluginOptions": {}
     },
-    "projects": {
-      "via": "author",
-      "collection": "project"
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "UI",
+        "UX",
+        "GRAPHIC_DESIGN"
+      ]
+    },
+    "rich_content": {
+      "type": "richtext"
     }
   }
 }
