@@ -620,13 +620,21 @@
                 "type": {
                   "type": "string",
                   "enum": [
-                    "UI",
-                    "UX",
+                    "UI_UX",
                     "GRAPHIC_DESIGN"
                   ]
                 },
                 "rich_content": {
                   "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "uid"
                 },
                 "published_at": {
                   "type": "string"
