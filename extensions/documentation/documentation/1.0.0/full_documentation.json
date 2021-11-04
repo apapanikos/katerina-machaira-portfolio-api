@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "11/02/2021 8:06:39 PM"
+    "x-generation-date": "11/04/2021 11:33:43 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3931,6 +3931,9 @@
                 "slug": {
                   "type": "uid"
                 },
+                "details": {
+                  "type": "component"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -4345,6 +4348,46 @@
           "slug": {
             "type": "uid"
           },
+          "details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "product_desc": {
+                  "type": "string"
+                },
+                "problem": {
+                  "type": "string"
+                },
+                "goal": {
+                  "type": "string"
+                },
+                "responsibilities": {
+                  "type": "string"
+                },
+                "start_date": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "end_date": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "target_audience": {
+                  "type": "string"
+                },
+                "my_role": {
+                  "type": "string"
+                }
+              }
+            }
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -4377,6 +4420,46 @@
           },
           "slug": {
             "type": "uid"
+          },
+          "details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "product_desc": {
+                  "type": "string"
+                },
+                "problem": {
+                  "type": "string"
+                },
+                "goal": {
+                  "type": "string"
+                },
+                "responsibilities": {
+                  "type": "string"
+                },
+                "start_date": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "end_date": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "target_audience": {
+                  "type": "string"
+                },
+                "my_role": {
+                  "type": "string"
+                }
+              }
+            }
           },
           "published_at": {
             "type": "string",

@@ -714,6 +714,46 @@
           "slug": {
             "type": "uid"
           },
+          "details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "product_desc": {
+                  "type": "string"
+                },
+                "problem": {
+                  "type": "string"
+                },
+                "goal": {
+                  "type": "string"
+                },
+                "responsibilities": {
+                  "type": "string"
+                },
+                "start_date": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "end_date": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "target_audience": {
+                  "type": "string"
+                },
+                "my_role": {
+                  "type": "string"
+                }
+              }
+            }
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -746,6 +786,46 @@
           },
           "slug": {
             "type": "uid"
+          },
+          "details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "product_desc": {
+                  "type": "string"
+                },
+                "problem": {
+                  "type": "string"
+                },
+                "goal": {
+                  "type": "string"
+                },
+                "responsibilities": {
+                  "type": "string"
+                },
+                "start_date": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "end_date": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "target_audience": {
+                  "type": "string"
+                },
+                "my_role": {
+                  "type": "string"
+                }
+              }
+            }
           },
           "published_at": {
             "type": "string",

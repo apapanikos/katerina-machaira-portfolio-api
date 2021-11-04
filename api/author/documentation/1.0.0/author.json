@@ -636,6 +636,9 @@
                 "slug": {
                   "type": "uid"
                 },
+                "details": {
+                  "type": "component"
+                },
                 "published_at": {
                   "type": "string"
                 },

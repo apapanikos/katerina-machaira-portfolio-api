@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_details_details",
+  "info": {
+    "name": "details",
+    "icon": "file-alt"
+  },
+  "options": {},
+  "attributes": {
+    "product_desc": {
+      "type": "string"
+    },
+    "problem": {
+      "type": "string"
+    },
+    "goal": {
+      "type": "string"
+    },
+    "responsibilities": {
+      "type": "richtext"
+    },
+    "start_date": {
+      "type": "date"
+    },
+    "end_date": {
+      "type": "date"
+    },
+    "target_audience": {
+      "type": "string"
+    },
+    "my_role": {
+      "type": "string"
+    }
+  }
+}
