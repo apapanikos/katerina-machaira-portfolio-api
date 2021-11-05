@@ -639,15 +639,6 @@
                 "details": {
                   "type": "component"
                 },
-                "research": {
-                  "type": "component"
-                },
-                "persona": {
-                  "type": "component"
-                },
-                "ideation": {
-                  "type": "component"
-                },
                 "published_at": {
                   "type": "string"
                 },
