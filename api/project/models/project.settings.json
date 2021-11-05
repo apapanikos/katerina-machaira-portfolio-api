@@ -77,6 +77,36 @@
       "type": "component",
       "repeatable": false,
       "component": "persona.persona"
+    },
+    "ideation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ideation.ideation"
+    },
+    "wireframes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "wireframes.wireframes"
+    },
+    "prototypes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "prototypes.prototypes"
+    },
+    "usability_study": {
+      "type": "component",
+      "repeatable": false,
+      "component": "usability-study.usability-study"
+    },
+    "takeaways": {
+      "type": "component",
+      "repeatable": false,
+      "component": "takeaways.takeaways"
+    },
+    "next_steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "next-steps.next-steps"
     }
   }
 }

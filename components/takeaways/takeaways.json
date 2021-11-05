@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_takeaways_takeaways",
+  "info": {
+    "name": "takeaways",
+    "icon": "sign-out-alt"
+  },
+  "options": {},
+  "attributes": {
+    "impact": {
+      "type": "text"
+    },
+    "results": {
+      "type": "text"
+    }
+  }
+}

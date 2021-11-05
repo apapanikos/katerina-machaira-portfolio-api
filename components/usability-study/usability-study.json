@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_usability_study_usability_studies",
+  "info": {
+    "name": "usability_study",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "desc": {
+      "type": "string"
+    },
+    "first_round_findings": {
+      "type": "json"
+    },
+    "second_round_findings": {
+      "type": "json"
+    }
+  }
+}

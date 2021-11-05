@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_prototypes_prototypes",
+  "info": {
+    "name": "prototypes",
+    "icon": "pencil-ruler"
+  },
+  "options": {},
+  "attributes": {
+    "desc": {
+      "type": "text"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

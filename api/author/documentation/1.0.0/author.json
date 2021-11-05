@@ -645,6 +645,24 @@
                 "persona": {
                   "type": "component"
                 },
+                "ideation": {
+                  "type": "component"
+                },
+                "wireframes": {
+                  "type": "component"
+                },
+                "prototypes": {
+                  "type": "component"
+                },
+                "usability_study": {
+                  "type": "component"
+                },
+                "takeaways": {
+                  "type": "component"
+                },
+                "next_steps": {
+                  "type": "component"
+                },
                 "published_at": {
                   "type": "string"
                 },
