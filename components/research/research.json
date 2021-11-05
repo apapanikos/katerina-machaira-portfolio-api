@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_research_research",
+  "info": {
+    "name": "research",
+    "icon": "search"
+  },
+  "options": {},
+  "attributes": {
+    "desc": {
+      "type": "text"
+    },
+    "pain_points": {
+      "type": "json"
+    }
+  }
+}

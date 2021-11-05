@@ -754,6 +754,58 @@
               }
             }
           },
+          "research": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "desc": {
+                "type": "string"
+              },
+              "pain_points": {
+                "type": "object"
+              }
+            }
+          },
+          "persona": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "desc": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "age": {
+                "type": "string"
+              },
+              "education": {
+                "type": "string"
+              },
+              "family": {
+                "type": "string"
+              },
+              "occupation": {
+                "type": "string"
+              },
+              "goals": {
+                "type": "string"
+              },
+              "frustrations": {
+                "type": "string"
+              }
+            }
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -824,6 +876,58 @@
                 "my_role": {
                   "type": "string"
                 }
+              }
+            }
+          },
+          "research": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "desc": {
+                "type": "string"
+              },
+              "pain_points": {
+                "type": "object"
+              }
+            }
+          },
+          "persona": {
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "desc": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "age": {
+                "type": "string"
+              },
+              "education": {
+                "type": "string"
+              },
+              "family": {
+                "type": "string"
+              },
+              "occupation": {
+                "type": "string"
+              },
+              "goals": {
+                "type": "string"
+              },
+              "frustrations": {
+                "type": "string"
               }
             }
           },

@@ -67,6 +67,16 @@
       "type": "component",
       "repeatable": true,
       "component": "details.details"
+    },
+    "research": {
+      "type": "component",
+      "repeatable": false,
+      "component": "research.research"
+    },
+    "persona": {
+      "type": "component",
+      "repeatable": false,
+      "component": "persona.persona"
     }
   }
 }

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_persona_personas",
+  "info": {
+    "name": "persona",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "desc": {
+      "type": "text"
+    },
+    "name": {
+      "type": "string"
+    },
+    "age": {
+      "type": "string"
+    },
+    "education": {
+      "type": "string"
+    },
+    "family": {
+      "type": "string"
+    },
+    "occupation": {
+      "type": "string"
+    },
+    "goals": {
+      "type": "richtext"
+    },
+    "frustrations": {
+      "type": "richtext"
+    }
+  }
+}

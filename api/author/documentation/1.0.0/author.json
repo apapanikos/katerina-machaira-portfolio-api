@@ -639,6 +639,12 @@
                 "details": {
                   "type": "component"
                 },
+                "research": {
+                  "type": "component"
+                },
+                "persona": {
+                  "type": "component"
+                },
                 "published_at": {
                   "type": "string"
                 },
