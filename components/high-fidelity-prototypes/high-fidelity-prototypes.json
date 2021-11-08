@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_high_fidelity_prototypes_high_fidelity_prototypes",
+  "info": {
+    "name": "high_fidelity_prototypes",
+    "icon": "palette"
+  },
+  "options": {},
+  "attributes": {
+    "desc": {
+      "type": "text"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

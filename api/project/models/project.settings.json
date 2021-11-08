@@ -65,18 +65,21 @@
     },
     "details": {
       "type": "component",
-      "repeatable": true,
-      "component": "details.details"
+      "repeatable": false,
+      "component": "details.details",
+      "required": true
     },
     "research": {
       "type": "component",
       "repeatable": false,
-      "component": "research.research"
+      "component": "research.research",
+      "required": true
     },
     "persona": {
       "type": "component",
       "repeatable": false,
-      "component": "persona.persona"
+      "component": "persona.persona",
+      "required": true
     },
     "ideation": {
       "type": "component",
@@ -86,27 +89,44 @@
     "wireframes": {
       "type": "component",
       "repeatable": false,
-      "component": "wireframes.wireframes"
+      "component": "wireframes.wireframes",
+      "required": true
     },
-    "prototypes": {
+    "low_fidelity_prototypes": {
       "type": "component",
       "repeatable": false,
-      "component": "prototypes.prototypes"
+      "component": "prototypes.prototypes",
+      "required": true
     },
     "usability_study": {
       "type": "component",
       "repeatable": false,
-      "component": "usability-study.usability-study"
+      "component": "usability-study.usability-study",
+      "required": true
     },
     "takeaways": {
       "type": "component",
       "repeatable": false,
-      "component": "takeaways.takeaways"
+      "component": "takeaways.takeaways",
+      "required": true
     },
     "next_steps": {
       "type": "component",
       "repeatable": true,
-      "component": "next-steps.next-steps"
+      "component": "next-steps.next-steps",
+      "required": true
+    },
+    "mockups": {
+      "type": "component",
+      "repeatable": false,
+      "component": "mockups.mockups",
+      "required": true
+    },
+    "high_fidelity_prototypes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "high-fidelity-prototypes.high-fidelity-prototypes",
+      "required": true
     }
   }
 }

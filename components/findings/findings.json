@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_findings_findings",
+  "info": {
+    "name": "findings",
+    "icon": "search-dollar"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "text"
+    }
+  }
+}

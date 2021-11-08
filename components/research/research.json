@@ -2,7 +2,8 @@
   "collectionName": "components_research_research",
   "info": {
     "name": "research",
-    "icon": "search"
+    "icon": "search",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,7 +11,9 @@
       "type": "text"
     },
     "pain_points": {
-      "type": "json"
+      "type": "component",
+      "repeatable": true,
+      "component": "pain-points.pain-points"
     }
   }
 }

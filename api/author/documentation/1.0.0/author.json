@@ -596,7 +596,17 @@
             "type": "array",
             "items": {
               "required": [
-                "id"
+                "id",
+                "details",
+                "research",
+                "persona",
+                "wireframes",
+                "low_fidelity_prototypes",
+                "usability_study",
+                "takeaways",
+                "next_steps",
+                "mockups",
+                "high_fidelity_prototypes"
               ],
               "properties": {
                 "id": {
@@ -651,7 +661,7 @@
                 "wireframes": {
                   "type": "component"
                 },
-                "prototypes": {
+                "low_fidelity_prototypes": {
                   "type": "component"
                 },
                 "usability_study": {
@@ -661,6 +671,12 @@
                   "type": "component"
                 },
                 "next_steps": {
+                  "type": "component"
+                },
+                "mockups": {
+                  "type": "component"
+                },
+                "high_fidelity_prototypes": {
                   "type": "component"
                 },
                 "published_at": {

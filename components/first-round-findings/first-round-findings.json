@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_first_round_findings_first_round_findings",
+  "info": {
+    "name": "first_round_findings",
+    "icon": "search-plus"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "text"
+    }
+  }
+}

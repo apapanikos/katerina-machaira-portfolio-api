@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_pain_points_pain_points",
+  "info": {
+    "name": "pain_points",
+    "icon": "hand-point-up"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    }
+  }
+}
