@@ -102,7 +102,7 @@
       "type": "component",
       "repeatable": false,
       "component": "usability-study.usability-study",
-      "required": true
+      "required": false
     },
     "takeaways": {
       "type": "component",
